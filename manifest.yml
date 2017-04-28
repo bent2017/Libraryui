@@ -1,7 +1,7 @@
 applications:
 - name: LibraryUI
-  host: LibraryUI-[myName]
+  host: bege-LibraryUI
   env:
-    LIBRARY_URI: "https://libraryserver-[myName].eu-gb.mybluemix.net/api"
-  memory: 64M
+    LIBRARY_URI: "https://bege-library-server.mybluemix.net/api"
+  memory: 128M
   instances: 1
